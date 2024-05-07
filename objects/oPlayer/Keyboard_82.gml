@@ -1,1 +1,1 @@
-SlideTransition(TRANS_MODE.RESTART);
+global.SlideTransition(TRANS_MODE.RESTART);

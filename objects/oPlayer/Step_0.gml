@@ -1,4 +1,9 @@
 
+var key_down
+var key_right
+var key_up
+var key_left
+
 if(hasmovement){
 	
 key_left = keyboard_check(vk_left);
