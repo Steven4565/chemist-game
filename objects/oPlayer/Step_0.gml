@@ -1,18 +1,18 @@
 
-var key_down
-var key_right
-var key_up
-var key_left
+var _key_down
+var _key_right
+var _key_up
+var _key_left
 
 if(hasmovement){
 	
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
+_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+_key_right = keyboard_check(vk_right)|| keyboard_check(ord("A"));
+_key_up = keyboard_check(vk_up)|| keyboard_check(ord("A"));
+_key_down = keyboard_check(vk_down)|| keyboard_check(ord("A"));
 
-var moveH = key_right - key_left;
-var moveV = key_down - key_up;
+var moveH = _key_right - _key_left;
+var moveV = _key_down - _key_up;
 
 hsp = moveH * movespd;
 vsp = moveV * movespd;
@@ -20,10 +20,10 @@ vsp = moveV * movespd;
 
 else
 {
-	key_down = 0;
-	key_right = 0;
-	key_left = 0;
-	key_up = 0;
+	_key_down = 0;
+	_key_right = 0;
+	_key_left = 0;
+	_key_up = 0;
 }
 
 // Horizontal collision resolution
