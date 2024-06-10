@@ -33,8 +33,8 @@
   ],
   "name":"Cave",
   "parent":{
-    "name":"Mulmed",
-    "path":"Mulmed.yyp",
+    "name":"Chemist",
+    "path":"Chemist.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
