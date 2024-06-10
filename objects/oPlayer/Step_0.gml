@@ -4,18 +4,23 @@ var _key_right
 var _key_up
 var _key_left
 
+var collisionTile = floor1Tilemap
+
+if (playerFloor == 2) {
+	collisionTile = floor2Tilemap
+}
+
 if(hasmovement){
-	
-_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-_key_right = keyboard_check(vk_right)|| keyboard_check(ord("A"));
-_key_up = keyboard_check(vk_up)|| keyboard_check(ord("A"));
-_key_down = keyboard_check(vk_down)|| keyboard_check(ord("A"));
+	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	_key_right = keyboard_check(vk_right)|| keyboard_check(ord("A"));
+	_key_up = keyboard_check(vk_up)|| keyboard_check(ord("A"));
+	_key_down = keyboard_check(vk_down)|| keyboard_check(ord("A"));
 
-var moveH = _key_right - _key_left;
-var moveV = _key_down - _key_up;
+	var moveH = _key_right - _key_left;
+	var moveV = _key_down - _key_up;
 
-hsp = moveH * movespd;
-vsp = moveV * movespd;
+	hsp = moveH * movespd;
+	vsp = moveV * movespd;
 }
 
 else
@@ -27,9 +32,9 @@ else
 }
 
 // Horizontal collision resolution
-if(place_meeting(x + hsp, y, oWall))
+if(place_meeting(x + hsp, y, collisionTile))
 {
-    while(!place_meeting(x + sign(hsp), y, oWall))
+    while(!place_meeting(x + sign(hsp), y, collisionTile))
     {
         x += sign(hsp);
     }
@@ -37,9 +42,9 @@ if(place_meeting(x + hsp, y, oWall))
 }
 
 // Vertical collision resolution
-if(place_meeting(x, y + vsp, oWall))
+if(place_meeting(x, y + vsp, collisionTile))
 {
-    while(!place_meeting(x, y + sign(vsp), oWall))
+    while(!place_meeting(x, y + sign(vsp), collisionTile))
     {
         y += sign(vsp);
     }

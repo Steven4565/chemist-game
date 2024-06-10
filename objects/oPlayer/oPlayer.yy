@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPLayer",
-    "path":"sprites/sPLayer/sPLayer.yy",
+    "name":"PlayerFront",
+    "path":"sprites/PlayerFront/PlayerFront.yy",
   },
   "spriteMaskId":null,
   "visible":true,

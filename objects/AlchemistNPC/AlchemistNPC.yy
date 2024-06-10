@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Npc1",
+  "%Name":"AlchemistNPC",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Npc1",
+  "name":"AlchemistNPC",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Npc1Sprite",
-    "path":"sprites/Npc1Sprite/Npc1Sprite.yy",
+    "name":"Alchemist",
+    "path":"sprites/Alchemist/Alchemist.yy",
   },
   "spriteMaskId":null,
   "visible":true,
