@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/NPC/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Houses","folderPath":"folders/Objects/Houses.yy","name":"Houses","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"HitboxTriggers","folderPath":"folders/Objects/HitboxTriggers.yy","name":"HitboxTriggers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,7 +40,9 @@
   },
   "name":"Chemist",
   "resources":[
+    {"id":{"name":"AlchemistHouse","path":"objects/AlchemistHouse/AlchemistHouse.yy",},},
     {"id":{"name":"AlchemistNPC","path":"objects/AlchemistNPC/AlchemistNPC.yy",},},
+    {"id":{"name":"DrawObject","path":"objects/DrawObject/DrawObject.yy",},},
     {"id":{"name":"Floor1SwitchCollider","path":"objects/Floor1SwitchCollider/Floor1SwitchCollider.yy",},},
     {"id":{"name":"Floor2SwitchCollider","path":"objects/Floor2SwitchCollider/Floor2SwitchCollider.yy",},},
     {"id":{"name":"NpcButton","path":"objects/NpcButton/NpcButton.yy",},},

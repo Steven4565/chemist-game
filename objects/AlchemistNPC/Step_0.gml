@@ -11,8 +11,9 @@ button.visible = _playerCloseby ? true : false
 if (_playerCloseby && keyboard_check(ord("E"))) {
 	// Show dialog
 	showingDialog = true;
+	oPlayer.hasmovement = false;
+	
 }
-
 if (showingDialog) {
 	// TODO: stop player from moving, show dialog
 	// Get message

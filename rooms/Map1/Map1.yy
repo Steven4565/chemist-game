@@ -12,6 +12,7 @@
     {"name":"inst_78756B4E","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_9CD9BDA","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_64A70CD0","path":"rooms/Map1/Map1.yy",},
+    {"name":"inst_14CD799B","path":"rooms/Map1/Map1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,6 +63,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_9C3E669","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9C3E669","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1536.0,"y":864.0,},
         {"$GMRInstance":"","%Name":"inst_64A70CD0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64A70CD0","objectId":{"name":"AlchemistNPC","path":"objects/AlchemistNPC/AlchemistNPC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":832.0,},
+        {"$GMRInstance":"","%Name":"inst_14CD799B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14CD799B","objectId":{"name":"DrawObject","path":"objects/DrawObject/DrawObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":864.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Decoration","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Decoration","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":56,"TileCompressedData":[
           -39,-2147483648,1,39,-210,-2147483648,1,239,-12,-2147483648,5,70,-2147483648,39,-2147483648,8,-6,-2147483648,
