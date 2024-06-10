@@ -54,3 +54,5 @@ if(place_meeting(x, y + vsp, collisionTile))
 // Move the object after resolving collisions
 x += hsp;
 y += vsp;
+
+self.depth = -self.y
