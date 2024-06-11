@@ -34,7 +34,8 @@ else
 // Horizontal collision resolution
 if(place_meeting(x + hsp, y, collisionTile))
 {
-    while(!place_meeting(x + sign(hsp), y, collisionTile))
+	var collidedX = checkCollision(x + sign(hsp), y, [collisionTile, AlchemistCollider]);
+    while(!collidedX)
     {
         x += sign(hsp);
     }

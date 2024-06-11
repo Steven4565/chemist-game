@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Floor2SwitchCollider",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"AlchemistCollider",
+  "eventList":[],
   "managed":true,
-  "name":"Floor2SwitchCollider",
+  "name":"AlchemistCollider",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitboxTriggers",
-    "path":"folders/Objects/HitboxTriggers.yy",
+    "name":"Colliders",
+    "path":"folders/Objects/Colliders.yy",
   },
   "parentObjectId":null,
   "persistent":false,

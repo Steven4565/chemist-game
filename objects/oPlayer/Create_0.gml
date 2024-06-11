@@ -8,6 +8,10 @@ floor2Tilemap = layer_tilemap_get_id(layer_get_id("Floor2Collision"))
 
 playerFloor=1
 
+
+alchemistLevelCleared = false;
+
+
 function toggleMovement(isMovable) {
 	if (!isMovable) {
 		hasmovement = false;
@@ -16,4 +20,12 @@ function toggleMovement(isMovable) {
 	} else {
 		hasmovement = true;
 	}
+}
+
+function checkCollision(x, y, layers) {
+	var collided = false;
+	for (var i = 0; i < array_length(layers); i++) {
+		collided = place_meeting(x, y, layers[i]) | collided;
+	}
+	return collided;
 }
