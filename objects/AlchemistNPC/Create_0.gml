@@ -1,35 +1,9 @@
-/// @description Insert description here
+conversationOngoing = false;
+dialogPage = 0;
 
-convs = [
-	new Conversation(
-		"cHello",
-		[
-			"test",
-			"hello"
-		],
-		[
-			new Option("oHello", "cHelloBack", undefined),
-			new Option("oHi", "cHiBack", undefined),
-		]
-	),
-	new Conversation(
-		"cHelloBack",
-		[
-			"hello back"
-		],
-		undefined
-	),
-	new Conversation(
-		"cHiBack",
-		[
-			"hi back"
-		],
-		undefined
-	)
-]
+// State
+playerClose = false;
 
-data = new NpcData("npc1", convs, "sStart", undefined);
-showingDialog = false;
 
 // Button
 button = instance_create_layer(x, y, "Instances", NpcButton);
