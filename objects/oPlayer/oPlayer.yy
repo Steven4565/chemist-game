@@ -35,6 +35,9 @@
     "name":"PlayerFront",
     "path":"sprites/PlayerFront/PlayerFront.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"PlayerFront",
+    "path":"sprites/PlayerFront/PlayerFront.yy",
+  },
   "visible":true,
 }
