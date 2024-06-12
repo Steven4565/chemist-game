@@ -17,6 +17,8 @@ playerFloor=1
 
 alchemistLevelCleared = false;
 guard1Cleared = false;
+camperLevelCleared = false;
+guard2Cleared = false;
 
 
 function toggleMovement(isMovable) {

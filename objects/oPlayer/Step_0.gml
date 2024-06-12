@@ -18,6 +18,9 @@ if (!oPlayer.alchemistLevelCleared) {
 if (!oPlayer.guard1Cleared) {
 	array_push(collisionLayers, Map1GatekeeperBlocker);	
 }
+if (!oPlayer.guard2Cleared) {
+	array_push(collisionLayers, AzureBlocker);	
+}
 
 if(hasmovement){
 	

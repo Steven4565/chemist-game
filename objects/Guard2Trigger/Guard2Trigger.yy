@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"QuestHandler",
+  "%Name":"Guard2Trigger",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"QuestHandler",
+  "name":"Guard2Trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameHandlers",
-    "path":"folders/Objects/GameHandlers.yy",
+    "name":"HitboxTriggers",
+    "path":"folders/Objects/HitboxTriggers.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"CollisionSpriteRed",
+    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

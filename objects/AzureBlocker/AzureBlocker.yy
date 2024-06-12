@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"GuiInputHandler",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":89,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"AzureBlocker",
+  "eventList":[],
   "managed":true,
-  "name":"GuiInputHandler",
+  "name":"AzureBlocker",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameHandlers",
-    "path":"folders/Objects/GameHandlers.yy",
+    "name":"NpcBlocker",
+    "path":"folders/Objects/NpcBlocker.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"CollisionSpriteRed",
+    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

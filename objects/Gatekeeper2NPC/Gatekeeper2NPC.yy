@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"GuiInputHandler",
+  "%Name":"Gatekeeper2NPC",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":89,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"GuiInputHandler",
+  "name":"Gatekeeper2NPC",
   "overriddenProperties":[],
   "parent":{
-    "name":"GameHandlers",
-    "path":"folders/Objects/GameHandlers.yy",
+    "name":"Characters",
+    "path":"folders/Objects/NPC/Characters.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"ParentNpc",
+    "path":"objects/ParentNpc/ParentNpc.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Gatekeeper",
+    "path":"sprites/Gatekeeper/Gatekeeper.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
