@@ -1,0 +1,1 @@
+elder_quest_triggered = false;

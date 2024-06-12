@@ -16,6 +16,7 @@ floor2Tilemap = layer_tilemap_get_id(layer_get_id("Floor2Collision"))
 playerFloor=1
 
 alchemistLevelCleared = false;
+guard1Cleared = false;
 
 
 function toggleMovement(isMovable) {

@@ -15,6 +15,6 @@ if (!oPlayer.alchemistLevelCleared) {
 			}
 		)
 	}
-	AlchemistNPC.triggerDialog(callback);
+	ElderNPC.triggerDialog(callback);
 	oPlayer.alchemistLevelCleared = true;
 }

@@ -13,7 +13,10 @@ if (playerFloor == 2) {
 
 var collisionLayers = [collisionTile];
 if (!oPlayer.alchemistLevelCleared) {
-	 array_push(collisionLayers, AlchemistCollider);	
+	 array_push(collisionLayers, AlchemistBlocker);	
+}
+if (!oPlayer.guard1Cleared) {
+	array_push(collisionLayers, Map1GatekeeperBlocker);	
 }
 
 if(hasmovement){
