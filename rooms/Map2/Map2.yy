@@ -21,6 +21,7 @@
     {"name":"inst_3507BA37","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_E4BBB96","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_12AF08A0","path":"rooms/Map2/Map2.yy",},
+    {"name":"inst_279D73C4","path":"rooms/Map2/Map2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -53,7 +54,9 @@
           -2147483648,1,1,-7,-2147483648,1,1,-30,-2147483648,1,1,-3,-2147483648,1,1,-7,-2147483648,1,1,-30,-2147483648,
           1,1,-3,-2147483648,1,1,-7,-2147483648,1,1,-4,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"CollisionTileset","path":"tilesets/CollisionTileset/CollisionTileset.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_279D73C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_279D73C4","objectId":{"name":"CamperNPC","path":"objects/CamperNPC/CamperNPC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":576.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Cloud","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Cloud","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
           -11,834,2,891,892,-17,834,2,893,894,-6,834,2,893,894,-3,834,2,891,892,-4,834,2,893,894,-10,834,2,893,
           894,-7,834,2,891,892,-5,834,2,893,894,-5,834,2,891,892,-12,834,2,893,894,-8,834,2,891,892,-23,834,-2,
