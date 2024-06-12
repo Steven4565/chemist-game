@@ -1,11 +1,13 @@
 var vw = camera_get_view_width(view_camera[0]);
 var vh = camera_get_view_height(view_camera[0]);
 
-function displayChatbox(texts, authors) {
+
+function displayChatbox(texts, authors, _callback = function () {}) {
 	chatboxDisplayed = true;
 	chatboxTexts = texts;
-	show_debug_message(textAuthors);
 	textAuthors = authors;
+	
+	callback = _callback;
 	oPlayer.toggleMovement(false);
 }
 
@@ -22,6 +24,7 @@ if (chatboxDisplayed) {
 		chatboxDisplayed = false; 
 		chatIdx = 0;
 		oPlayer.toggleMovement(true);
+		callback();
 		
 	} else {
 		// Weird error idk why
@@ -40,14 +43,3 @@ if (chatboxDisplayed) {
 	
 }
 
-
-// Draw quests
-for (var i = 0; i < array_length(quests); i++) {
-	var curQuestHeight = 20 + (sprite_get_height(QuestBackground) * 3+ 20) * i;
-	var curQuestWidth = 20;
-	draw_sprite_ext(QuestBackground, 0, curQuestWidth, curQuestHeight, 3, 3, 0, c_white, 1);
-	
-	draw_set_color(c_black)
-	draw_set_font(DialogFont)
-	draw_text(curQuestWidth + 25, curQuestHeight + 25, quests[i]);
-}
