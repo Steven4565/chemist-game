@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistNPC",
+  "%Name":"BookHandler",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"AlchemistNPC",
+  "name":"BookHandler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/NPC/Characters.yy",
+    "name":"GameHandlers",
+    "path":"folders/Objects/GameHandlers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Alchemist",
-    "path":"sprites/Alchemist/Alchemist.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

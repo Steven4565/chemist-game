@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistNPC",
+  "%Name":"AlchemistTrigger",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"AlchemistNPC",
+  "name":"AlchemistTrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/NPC/Characters.yy",
+    "name":"HitboxTriggers",
+    "path":"folders/Objects/HitboxTriggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Alchemist",
-    "path":"sprites/Alchemist/Alchemist.yy",
+    "name":"CollisionSpriteRed",
+    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

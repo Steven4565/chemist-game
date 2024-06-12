@@ -1,23 +1,15 @@
-
-var _playerCloseby = distance_to_object(oPlayer) <= 20
+playerClose = distance_to_object(oPlayer) <= 20
 
 // Handle button visibility
-button.visible = _playerCloseby ? true : false
+button.visible = playerClose ? true : false
 
 
-
-
-// Handle on click
-if (_playerCloseby && keyboard_check(ord("E"))) {
-	// Show dialog
-	showingDialog = true;
-}
-
-if (showingDialog) {
-	// TODO: stop player from moving, show dialog
-	// Get message
-	// message = data.getmessage()
-	// show message
-	// dialog.showMessage(message id)
-	
+function triggerDialog(callback = function () {}) {
+	var currConv = conversations[conversationIdx];
+	DrawGUI.displayChatbox(
+		currConv[0],
+		currConv[1],
+		callback
+	)
+	oPlayer.toggleMovement(false);	
 }
