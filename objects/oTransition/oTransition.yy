@@ -10,8 +10,8 @@
   "name":"oTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"GameHandlers",
+    "path":"folders/Objects/GameHandlers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

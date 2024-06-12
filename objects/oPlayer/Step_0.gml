@@ -10,8 +10,8 @@ if (playerFloor == 2) {
 }
 
 var collisionLayers = [collisionTile];
-if (alchemistLevelCleared) {
-	// array_push(collisionLayers, AlchemistCollider);	
+if (!oPlayer.alchemistLevelCleared) {
+	 array_push(collisionLayers, AlchemistCollider);	
 }
 
 if(hasmovement){
