@@ -35,8 +35,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"TileSets",
-    "path":"folders/TileSets.yy",
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
