@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistNPC",
+  "%Name":"ParentNpc",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"AlchemistNPC",
+  "name":"ParentNpc",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
     "path":"folders/Objects/NPC/Characters.yy",
   },
-  "parentObjectId":{
-    "name":"ParentNpc",
-    "path":"objects/ParentNpc/ParentNpc.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Alchemist",
-    "path":"sprites/Alchemist/Alchemist.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

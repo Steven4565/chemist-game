@@ -91,6 +91,7 @@
     {"id":{"name":"oRestaurant","path":"objects/oRestaurant/oRestaurant.yy",},},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oTree1","path":"objects/oTree1/oTree1.yy",},},
+    {"id":{"name":"ParentNpc","path":"objects/ParentNpc/ParentNpc.yy",},},
     {"id":{"name":"QuestHandler","path":"objects/QuestHandler/QuestHandler.yy",},},
     {"id":{"name":"RoomHandler","path":"objects/RoomHandler/RoomHandler.yy",},},
     {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
