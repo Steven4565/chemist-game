@@ -42,6 +42,7 @@
     {"name":"inst_69318131","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_23DD1388","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_CD1F7EE","path":"rooms/Map1/Map1.yy",},
+    {"name":"inst_4712FF8D","path":"rooms/Map1/Map1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -106,7 +107,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetRoom","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resource":{"name":"Map2","path":"rooms/Map2/Map2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Map2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetX","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetY","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"700",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":1504.0,"y":928.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":1504.0,"y":960.0,},
+        {"$GMRInstance":"","%Name":"inst_4712FF8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4712FF8D","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetRoom","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resource":{"name":"Map2","path":"rooms/Map2/Map2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Map2",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetX","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetY","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"700",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":1440.0,"y":0.0,},
       ],"layers":[],"name":"MapHitboxTriggers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"HouseLayer","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_3745E433","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3745E433","objectId":{"name":"AlcHouse","path":"objects/AlcHouse/AlcHouse.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":864.0,},
