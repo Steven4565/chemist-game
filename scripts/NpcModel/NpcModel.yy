@@ -6,7 +6,7 @@
   "name":"NpcModel",
   "parent":{
     "name":"NPC",
-    "path":"folders/NPC.yy",
+    "path":"folders/Objects/NPC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
