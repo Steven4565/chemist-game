@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"BookCloseButton",
+  "%Name":"BookLeftButton",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BookCloseButton",
+  "name":"BookLeftButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Book",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Close_idle",
-    "path":"sprites/Close_idle/Close_idle.yy",
+    "name":"Arrow_left",
+    "path":"sprites/Arrow_left/Arrow_left.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,8 @@
   "name":"BookButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"Book",
+    "path":"folders/Objects/GUI/Book.yy",
   },
   "parentObjectId":{
     "name":"ButtonParent",

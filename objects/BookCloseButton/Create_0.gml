@@ -8,7 +8,5 @@ x = 1060;
 y = 100;
 
 onClick = function() {
-	if (!BookHandler.bookDisplayed) {
-		BookHandler.bookDisplayed = false;
-	} 
+	BookHandler.bookDisplayed = false;
 }
