@@ -7,7 +7,13 @@ if (!oPlayer.alchemistLevelCleared) {
 				done: false
 			}
 		)
-		show_debug_message("test");
+		array_push(	
+			QuestHandler.quests, 	
+			{
+				name: "Alchemist's glasses",
+				done: false
+			}
+		)
 	}
 	AlchemistNPC.triggerDialog(callback);
 	oPlayer.alchemistLevelCleared = true;

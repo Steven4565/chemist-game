@@ -4,6 +4,8 @@ closeHovering = false;
 leftArrowHovering = false;
 rightArrowHovering = false
 
+bookButton= instance_create_layer(50, 140, "GameHandlers", BookButton);
+
 bookPage = instance_create_layer(50, 140, "GameHandlers", BookPage);
 closeButton = instance_create_layer(x, y, "GameHandlers", BookCloseButton);
 leftButton = instance_create_layer(x, y, "GameHandlers", BookLeftButton);
