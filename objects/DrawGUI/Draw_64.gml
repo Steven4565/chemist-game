@@ -26,12 +26,14 @@ if (chatboxDisplayed) {
 		oPlayer.toggleMovement(false);
 
 		// TextBox
-		draw_sprite_ext(TextBox, 0, vw, vh + 250, 2, 1.5, 0, c_white, 1);
+		draw_sprite_ext(TextBox, 0, vw, vh + 250, 10.5, 10.5, 0, c_white, 1);
 	
 		// Draw text
 		draw_set_color(c_black)
 		draw_set_font(DialogFont)
-		draw_text(50, vh + 130, chatboxTexts[chatIdx]);
+		draw_text(50, vh + 100, "Alchemist");
+		
+		draw_text(50, vh + 180, chatboxTexts[chatIdx]);
 		
 	}
 	
@@ -40,11 +42,11 @@ if (chatboxDisplayed) {
 
 // Draw quests
 for (var i = 0; i < array_length(quests); i++) {
-	var curQuestHeight = 20 + (sprite_get_height(QuestBackground)+ 20) * i;
+	var curQuestHeight = 20 + (sprite_get_height(QuestBackground) * 3+ 20) * i;
 	var curQuestWidth = 20;
-	draw_sprite_ext(QuestBackground, 0, curQuestWidth, curQuestHeight, 1, 1, 0, c_white, 1);
+	draw_sprite_ext(QuestBackground, 0, curQuestWidth, curQuestHeight, 3, 3, 0, c_white, 1);
 	
 	draw_set_color(c_black)
 	draw_set_font(DialogFont)
-	draw_text(curQuestWidth + 5, curQuestHeight + 25, quests[i]);
+	draw_text(curQuestWidth + 25, curQuestHeight + 25, quests[i]);
 }

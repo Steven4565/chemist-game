@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"QuestBackground",
   "bboxMode":0,
-  "bbox_bottom":99,
+  "bbox_bottom":27,
   "bbox_left":0,
-  "bbox_right":399,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cb78c69b-aa1c-4452-ae57-7106536411e2","name":"cb78c69b-aa1c-4452-ae57-7106536411e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"971eff00-407f-4751-922f-befa26a41ead","name":"971eff00-407f-4751-922f-befa26a41ead","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":100,
+  "height":28,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"21563de6-e3f6-46da-9c48-8b81fd828b10","blendMode":0,"displayName":"default","isLocked":false,"name":"21563de6-e3f6-46da-9c48-8b81fd828b10","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6f8bb9a3-9f59-4ed6-9b3b-3f94065e953c","blendMode":0,"displayName":"default","isLocked":false,"name":"6f8bb9a3-9f59-4ed6-9b3b-3f94065e953c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"QuestBackground",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb78c69b-aa1c-4452-ae57-7106536411e2","path":"sprites/QuestBackground/QuestBackground.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"36e2705b-9fd0-437f-8e7c-4fa12db8bdc3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"971eff00-407f-4751-922f-befa26a41ead","path":"sprites/QuestBackground/QuestBackground.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a04ce735-14d9-446d-96fc-bc297212df34","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":400,
+  "width":128,
 }
