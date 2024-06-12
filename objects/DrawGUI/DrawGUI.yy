@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Floor2SwitchCollider",
+  "%Name":"DrawGUI",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Floor2SwitchCollider",
+  "name":"DrawGUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitboxTriggers",
-    "path":"folders/Objects/HitboxTriggers.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"CollisionSpriteRed",
-    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,4 +1,3 @@
-
 var _key_down
 var _key_right
 var _key_up
@@ -10,6 +9,11 @@ var collisionTile = floor1Tilemap
 
 if (playerFloor == 2) {
 	collisionTile = floor2Tilemap
+}
+
+var collisionLayers = [collisionTile];
+if (!oPlayer.alchemistLevelCleared) {
+	 array_push(collisionLayers, AlchemistCollider);	
 }
 
 if(hasmovement){
@@ -77,19 +81,21 @@ else
 }
 
 // Horizontal collision resolution
-if(place_meeting(x + hsp, y, collisionTile))
+if(checkCollision(x + hsp, y, collisionLayers))
 {
-    while(!place_meeting(x + sign(hsp), y, collisionTile))
+    while(!checkCollision(x + sign(hsp), y, collisionLayers))
     {
         x += sign(hsp);
     }
     hsp = 0;
 }
 
+
+
 // Vertical collision resolution
-if(place_meeting(x, y + vsp, collisionTile))
+if(checkCollision(x, y + vsp, collisionLayers))
 {
-    while(!place_meeting(x, y + sign(vsp), collisionTile))
+    while(!checkCollision(x, y + sign(vsp), collisionLayers))
     {
         y += sign(vsp);
     }
