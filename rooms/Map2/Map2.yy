@@ -9,6 +9,7 @@
     {"name":"inst_1FF46A12","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_62D7EFF0","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_1D6ADC6D","path":"rooms/Map2/Map2.yy",},
+    {"name":"inst_4FED1655","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_66A534AD","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_464485C6","path":"rooms/Map2/Map2.yy",},
     {"name":"inst_53F482B","path":"rooms/Map2/Map2.yy",},
