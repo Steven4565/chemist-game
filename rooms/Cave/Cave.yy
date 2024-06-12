@@ -33,8 +33,8 @@
   ],
   "name":"Cave",
   "parent":{
-    "name":"Chemist",
-    "path":"Chemist.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
