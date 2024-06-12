@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Books",
-    "path":"folders/Sprites/Books.yy",
+    "name":"BookPages",
+    "path":"folders/Sprites/BookPages.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
