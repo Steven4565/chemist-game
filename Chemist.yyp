@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Chemist",
   "resources":[
@@ -137,12 +137,12 @@
     {"id":{"name":"House1","path":"sprites/House1/House1.yy",},},
     {"id":{"name":"House2","path":"sprites/House2/House2.yy",},},
     {"id":{"name":"House3","path":"sprites/House3/House3.yy",},},
+    {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},},
     {"id":{"name":"LampPostOff","path":"sprites/LampPostOff/LampPostOff.yy",},},
     {"id":{"name":"Left","path":"sprites/Left/Left.yy",},},
     {"id":{"name":"NpcButtonSprite","path":"sprites/NpcButtonSprite/NpcButtonSprite.yy",},},
     {"id":{"name":"ObjectDemo","path":"sprites/ObjectDemo/ObjectDemo.yy",},},
     {"id":{"name":"Pit","path":"sprites/Pit/Pit.yy",},},
-    {"id":{"name":"PlayerFront","path":"sprites/PlayerFront/PlayerFront.yy",},},
     {"id":{"name":"pole1","path":"sprites/pole1/pole1.yy",},},
     {"id":{"name":"PoleAlch","path":"sprites/PoleAlch/PoleAlch.yy",},},
     {"id":{"name":"PoleInn","path":"sprites/PoleInn/PoleInn.yy",},},

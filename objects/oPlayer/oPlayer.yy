@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Front",
-    "path":"sprites/Front/Front.yy",
+    "name":"Idle",
+    "path":"sprites/Idle/Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

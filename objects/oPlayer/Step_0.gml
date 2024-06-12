@@ -19,25 +19,21 @@ if (!oPlayer.alchemistLevelCleared) {
 if(hasmovement){
 	
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-    _key_right = keyboard_check(vk_right) || keyboard_check(ord("D")); // Corrected key binding
-    _key_up = keyboard_check(vk_up) || keyboard_check(ord("W")); // Corrected key binding
-    _key_down = keyboard_check(vk_down) || keyboard_check(ord("S")); // Corrected key binding
+    _key_right = keyboard_check(vk_right) || keyboard_check(ord("D")); 
+    _key_up = keyboard_check(vk_up) || keyboard_check(ord("W")); 
+    _key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 	
 	if(_key_down){
-		moving = true;
-		direction = 1;
+		direction = 90;
 	}
 	else if(_key_up){
-		moving = true;
-		direction = 0;
+		direction = 270;
 	}
 	else if(_key_right){
-		moving = true;
-		direction = 3;
+		direction = 0;
 	}
 	else if(_key_left){
-		moving = true;
-		direction = 2;
+		direction = 180;
 	}
 	
 	var moveH = _key_right - _key_left;
@@ -57,27 +53,20 @@ else
 }
 
 // PLayer Moving Frame
-if(moving)
+if(abs(vsp) + abs(hsp))
 {
 	switch (direction) {
-        case 0: sprite_index = Back; break;
-        case 1: sprite_index = Front; break;
-        case 2: sprite_index = Left; break;
-        case 3: sprite_index = Right; break;
+        case 270: sprite_index = Back; break;
+        case 90: sprite_index = Front; break;
+        case 180: sprite_index = Left; break;
+        case 0: sprite_index = Right; break;
     }
 	image_speed = imgspd
-	//currentImageIndex = image_index;
 }
 else
 {
-	switch (direction) {
-        case 0: image_index = 6; break;
-        case 1: image_index = 6; break;
-        case 2: image_index = 6; break;
-        case 3: image_index = 6; break;
-    }
-	image_speed = 0
-	//image_index = currentImageIndex
+	sprite_index = Idle;
+	image_speed = 0;
 }
 
 // Horizontal collision resolution
