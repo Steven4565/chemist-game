@@ -39,8 +39,14 @@ if(hasmovement){
 	var moveH = _key_right - _key_left;
 	var moveV = _key_down - _key_up;
 
-	hsp = moveH * movespd;
-	vsp = moveV * movespd;
+	hsp = moveH;
+	vsp = moveV;
+	
+	var magnitude = sqrt(hsp*hsp + vsp*vsp);
+	if (magnitude != 0) {
+		hsp = hsp / magnitude * movespd;
+		vsp = vsp / magnitude * movespd;	
+	}
 }
 
 else
