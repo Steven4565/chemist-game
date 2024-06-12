@@ -7,6 +7,8 @@ if (bookDisplayed) {
 		var scale = 1.2;
 		draw_sprite_ext(pageSprites[i], 0, vw, vh, scale, scale, 0, c_white, 1);
 	}
+	
+	closeButton.depth = 5000;
 	//if (keyboard_check_pressed(vk_space)) {
 	//	chatIdx++;
 	//	show_debug_message(chatIdx)
