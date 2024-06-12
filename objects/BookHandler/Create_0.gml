@@ -22,7 +22,7 @@ rightButton.depth = 4000;
 leftButton.depth = 4000;
 
 function nextPage() {
-	if (BookPage.pageIdx >= array_length(BookPage.pageSprites) - 1) {
+	if (BookPage.pageIdx >= array_length(BookPage.getUnlockedPages()) - 1) {
 		return;
 	}
 	show_debug_message(BookPage.pageIdx)

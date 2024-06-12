@@ -108,6 +108,7 @@
     {"id":{"name":"Baskets1","path":"sprites/Baskets1/Baskets1.yy",},},
     {"id":{"name":"Baskets2","path":"sprites/Baskets2/Baskets2.yy",},},
     {"id":{"name":"Bench1","path":"sprites/Bench1/Bench1.yy",},},
+    {"id":{"name":"BookBlank","path":"sprites/BookBlank/BookBlank.yy",},},
     {"id":{"name":"BookIcon","path":"sprites/BookIcon/BookIcon.yy",},},
     {"id":{"name":"BookLenses","path":"sprites/BookLenses/BookLenses.yy",},},
     {"id":{"name":"BookLenseSprite","path":"sprites/BookLenseSprite/BookLenseSprite.yy",},},
