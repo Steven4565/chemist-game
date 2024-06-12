@@ -1,5 +1,3 @@
-pageSprites = [BookLenseSprite];
-
 bookDisplayed = false;
 
 closeHovering = false;
@@ -24,9 +22,19 @@ rightButton.depth = 4000;
 leftButton.depth = 4000;
 
 function nextPage() {
+	if (BookPage.pageIdx >= array_length(BookPage.pageSprites) - 1) {
+		return;
+	}
+	show_debug_message(BookPage.pageIdx)
 		
+	BookPage.pageIdx++;
+	show_debug_message(BookPage.pageIdx)
+	
 }
 
 function prevPage() {
-	
+	if (BookPage.pageIdx <= 0) {
+		return;
+	}
+	BookPage.pageIdx--;
 }
