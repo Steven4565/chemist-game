@@ -7,6 +7,7 @@ if (!oPlayer.alchemistLevelCleared) {
 				done: false
 			}
 		)
+		show_debug_message("test");
 	}
 	AlchemistNPC.triggerDialog(callback);
 	oPlayer.alchemistLevelCleared = true;

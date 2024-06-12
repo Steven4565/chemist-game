@@ -15,10 +15,8 @@ function displayChatbox(texts, authors, _callback = function () {}) {
 if (chatboxDisplayed) {
 	if (keyboard_check_pressed(vk_space)) {
 		chatIdx++;
-		show_debug_message(chatIdx)
 	}
-	
-	show_debug_message(array_length(chatboxTexts))
+
 	// Check if chatbox is empty
 	if (chatIdx >= array_length(chatboxTexts)) {
 		chatboxDisplayed = false; 
