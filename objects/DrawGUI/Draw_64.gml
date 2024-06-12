@@ -1,9 +1,11 @@
 var vw = camera_get_view_width(view_camera[0]);
 var vh = camera_get_view_height(view_camera[0]);
 
-function displayChatbox(texts) {
+function displayChatbox(texts, authors) {
 	chatboxDisplayed = true;
 	chatboxTexts = texts;
+	show_debug_message(textAuthors);
+	textAuthors = authors;
 	oPlayer.toggleMovement(false);
 }
 
@@ -31,8 +33,7 @@ if (chatboxDisplayed) {
 		// Draw text
 		draw_set_color(c_black)
 		draw_set_font(DialogFont)
-		draw_text(50, vh + 100, "Alchemist");
-		
+		draw_text(50, vh + 100, textAuthors[chatIdx]);
 		draw_text(50, vh + 180, chatboxTexts[chatIdx]);
 		
 	}
