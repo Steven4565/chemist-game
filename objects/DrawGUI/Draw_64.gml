@@ -4,12 +4,12 @@ var vh = camera_get_view_height(view_camera[0]);
 function displayChatbox(texts) {
 	chatboxDisplayed = true;
 	chatboxTexts = texts;
-	
+	oPlayer.toggleMovement(false);
 }
 
 // Draw chatbox
 if (chatboxDisplayed) {
-	if (keyboard_check_pressed(ord("E"))) {
+	if (keyboard_check_pressed(vk_space)) {
 		chatIdx++;
 		show_debug_message(chatIdx)
 	}
@@ -17,12 +17,9 @@ if (chatboxDisplayed) {
 	show_debug_message(array_length(chatboxTexts))
 	// Check if chatbox is empty
 	if (chatIdx >= array_length(chatboxTexts)) {
-		chatboxDisplayed = false;
-		// This needs to start from -1, because when the player presses E, 
-		// GMS also runs this code on the same frame, meaning while the "E" button is still down.
-		// THis results in the chatbox being instantly closed
-		// So we need to offset it by -1
-		chatIdx = -1;
+		chatboxDisplayed = false; 
+		chatIdx = 0;
+		oPlayer.toggleMovement(true);
 		
 	} else {
 		// Weird error idk why
@@ -35,7 +32,7 @@ if (chatboxDisplayed) {
 		draw_set_color(c_black)
 		draw_set_font(DialogFont)
 		draw_text(50, vh + 130, chatboxTexts[chatIdx]);
-		oPlayer.toggleMovement(true);
+		
 	}
 	
 }
