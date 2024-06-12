@@ -25,19 +25,21 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":170.0,"y":0.0,},
+    {"x":170.0,"y":170.0,},
+    {"x":0.0,"y":170.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PlayerFront",
-    "path":"sprites/PlayerFront/PlayerFront.yy",
+    "name":"Idle",
+    "path":"sprites/Idle/Idle.yy",
   },
-  "spriteMaskId":{
-    "name":"PlayerFront",
-    "path":"sprites/PlayerFront/PlayerFront.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
