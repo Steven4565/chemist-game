@@ -41,7 +41,6 @@
     {"name":"inst_746AEEC1","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_69318131","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_23DD1388","path":"rooms/Map1/Map1.yy",},
-    {"name":"inst_CD1F7EE","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_4712FF8D","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_6AF70B92","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_2C687B33","path":"rooms/Map1/Map1.yy",},
@@ -115,11 +114,6 @@
         {"$GMRInstance":"","%Name":"inst_78756B4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78756B4E","objectId":{"name":"Floor2SwitchTrigger","path":"objects/Floor2SwitchTrigger/Floor2SwitchTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":544.0,"y":576.0,},
         {"$GMRInstance":"","%Name":"inst_9CD9BDA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9CD9BDA","objectId":{"name":"Floor2SwitchTrigger","path":"objects/Floor2SwitchTrigger/Floor2SwitchTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":1568.0,"y":576.0,},
         {"$GMRInstance":"","%Name":"inst_572512C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_572512C9","objectId":{"name":"AlchemistTrigger","path":"objects/AlchemistTrigger/AlchemistTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.359375,"x":1216.0,"y":736.0,},
-        {"$GMRInstance":"","%Name":"inst_CD1F7EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_CD1F7EE","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetRoom","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resource":{"name":"Map2","path":"rooms/Map2/Map2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Map2",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetX","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetY","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"700",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":1504.0,"y":960.0,},
         {"$GMRInstance":"","%Name":"inst_4712FF8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4712FF8D","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetRoom","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resource":{"name":"Map2","path":"rooms/Map2/Map2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Map2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MapSwitchTrigger","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"propertyId":{"name":"targetX","path":"objects/MapSwitchTrigger/MapSwitchTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1100",},
@@ -263,7 +257,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,

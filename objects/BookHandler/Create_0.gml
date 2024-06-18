@@ -12,11 +12,12 @@ leftButton = instance_create_layer(x, y, "GameHandlers", BookLeftButton);
 rightButton = instance_create_layer(x, y, "GameHandlers", BookRightButton);
 
 instances = [bookPage, closeButton, rightButton, leftButton];
+
+for (var i = 0; i < array_length(instances); i++) {
+	instances[i].visible = false;
+	instances[i].persistent = true;
+}
 	
-bookPage.visible = false;
-closeButton.visible = false;
-rightButton.visible = false;
-leftButton.visible = false;
 
 bookPage.depth = 5000;
 closeButton.depth = 4000;
