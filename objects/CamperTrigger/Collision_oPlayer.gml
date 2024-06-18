@@ -1,7 +1,7 @@
 if (!oPlayer.camperLevelCleared) {
 	var callback =  function () {
 		array_push(	
-			QuestHandler.quests, 	
+			QuestHandler.quests, 
 			{
 				name: "Help Camper",
 				done: false
