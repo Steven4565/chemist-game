@@ -58,6 +58,7 @@
     {"id":{"name":"AlchemistTrigger","path":"objects/AlchemistTrigger/AlchemistTrigger.yy",},},
     {"id":{"name":"AlcHouse","path":"objects/AlcHouse/AlcHouse.yy",},},
     {"id":{"name":"AzureBlocker","path":"objects/AzureBlocker/AzureBlocker.yy",},},
+    {"id":{"name":"AzureGetTrigger","path":"objects/AzureGetTrigger/AzureGetTrigger.yy",},},
     {"id":{"name":"BookButton","path":"objects/BookButton/BookButton.yy",},},
     {"id":{"name":"BookCloseButton","path":"objects/BookCloseButton/BookCloseButton.yy",},},
     {"id":{"name":"BookHandler","path":"objects/BookHandler/BookHandler.yy",},},
