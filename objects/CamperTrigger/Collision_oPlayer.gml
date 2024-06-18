@@ -1,4 +1,3 @@
-show_debug_message(oPlayer.camperLevelCleared)
 if (!oPlayer.camperLevelCleared) {
 	var callback =  function () {
 		array_push(	

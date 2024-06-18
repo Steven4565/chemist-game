@@ -8,11 +8,12 @@ function displayChatbox(texts, authors, _callback = function () {}) {
 	textAuthors = authors;
 	
 	callback = _callback;
-	oPlayer.toggleMovement(false);
+	
 }
 
 // Draw chatbox
 if (chatboxDisplayed) {
+	oPlayer.toggleMovement(false);
 	if (keyboard_check_pressed(vk_space)) {
 		chatIdx++;
 	}

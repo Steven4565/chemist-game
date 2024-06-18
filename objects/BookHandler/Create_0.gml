@@ -28,10 +28,8 @@ function nextPage() {
 	if (BookPage.pageIdx >= array_length(BookPage.getUnlockedPages()) - 1) {
 		return;
 	}
-	show_debug_message(BookPage.pageIdx)
 		
 	BookPage.pageIdx++;
-	show_debug_message(BookPage.pageIdx)
 	
 }
 

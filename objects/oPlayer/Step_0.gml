@@ -22,6 +22,7 @@ if (!oPlayer.guard2Cleared) {
 	array_push(collisionLayers, AzureBlocker);	
 }
 
+
 if(hasmovement){
 	
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -57,7 +58,6 @@ if(hasmovement){
 
 else
 {
-	
 	_key_down = 0;
 	_key_right = 0;
 	_key_left = 0;

@@ -9,4 +9,5 @@ y = 100;
 
 onClick = function() {
 	BookHandler.bookDisplayed = false;
+	oPlayer.toggleMovement(true);
 }

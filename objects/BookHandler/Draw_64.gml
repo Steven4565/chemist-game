@@ -13,6 +13,4 @@ if (bookDisplayed) {
 	for (var i = 0; i < array_length(instances); i++) {
 		instances[i].visible = false;
 	}
-	
-	oPlayer.toggleMovement(true);
 }
