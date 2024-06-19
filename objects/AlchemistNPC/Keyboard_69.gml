@@ -1,5 +1,5 @@
 if (playerClose && keyboard_check_pressed(ord("E"))) {	
-	triggerDialog(, function (i) {
+	var _ = triggerDialog(, function (i) {
 		if (i != 0) return;
 		
 		var inventory = CollectibleHandler.inventory;

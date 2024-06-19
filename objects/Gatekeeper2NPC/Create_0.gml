@@ -22,6 +22,10 @@ conversations =
             "author": "Gatekeeper",
             "message": "Hah, just try. Maybe I might give you the key"
         },
+		{
+			"author": "You",
+            "message": "(Hmm, I'll need to find some tools to fix this...)"
+		}
     ],
     [
         {
