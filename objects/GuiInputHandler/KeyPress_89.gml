@@ -14,6 +14,7 @@ for (var i = 0; i < array_length(QuestHandler.quests); i++) {
 		ElderNPC.conversationIdx = 1;
 		GatekeeperNPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[1].unlocked = true;
+		oWell.sprite_index = FixedWell;
 	}
 	else if (currQuest.name == "Help Camper") {
 		QuestHandler.quests[i].done = true;
@@ -24,6 +25,7 @@ for (var i = 0; i < array_length(QuestHandler.quests); i++) {
 		QuestHandler.quests[i].done = true;
 		Gatekeeper2NPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[3].unlocked = true;
+		oCart.sprite_index = FixedCart;
 	}
 	
 	break;
