@@ -1,7 +1,5 @@
 playerClose = false;
 
-show_debug_message("create")
-
 // Button
 button = instance_create_layer(x, y, "Instances", NpcButton);
 button.visible = false;
