@@ -1,4 +1,4 @@
-if (!oPlayer.guard1Cleared) {
+if (!QuestHandler.questTriggers.elder) {
 	var callback =  function () {
 		array_push(	
 			QuestHandler.quests, 	
@@ -8,6 +8,6 @@ if (!oPlayer.guard1Cleared) {
 			}
 		)
 	}
+	QuestHandler.questTriggers.elder = true;
 	ElderNPC.triggerDialog(callback);
-	oPlayer.guard1Cleared = true;
 }

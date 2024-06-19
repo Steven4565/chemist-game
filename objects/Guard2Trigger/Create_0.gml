@@ -1,1 +1,0 @@
-guard2_quest_triggered = false;

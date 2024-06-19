@@ -1,1 +1,0 @@
-camper_quest_triggered = false;

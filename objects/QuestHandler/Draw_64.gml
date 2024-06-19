@@ -10,5 +10,5 @@ for (var i = 0; i < array_length(activeQuests); i++) {
 	
 	draw_set_color(c_black)
 	draw_set_font(DialogFont)
-	draw_text(curQuestWidth + 25, curQuestHeight + 25, quests[i].name);
+	draw_text(curQuestWidth + 25, curQuestHeight + 25, activeQuests[i].name);
 }

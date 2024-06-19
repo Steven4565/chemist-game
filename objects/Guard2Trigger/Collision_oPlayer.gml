@@ -1,13 +1,13 @@
-if (!oPlayer.guard2Cleared) {
+if (!QuestHandler.questTriggers.guard2) {
 	var callback =  function () {
 		array_push(	
-			QuestHandler.quests, 	
+			QuestHandler.quests, 
 			{
 				name: "Fix Guard's Cart",
 				done: false
 			}
 		)
 	}
-	Gatekeeper2NPC.triggerDialog(callback);
-	oPlayer.guard2Cleared = true;
+	QuestHandler.questTriggers.guard2 = true;
+	Gatekeeper2NPC.triggerDialog(callback)
 }

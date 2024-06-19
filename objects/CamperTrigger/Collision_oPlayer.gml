@@ -1,4 +1,4 @@
-if (!oPlayer.camperLevelCleared) {
+if (!QuestHandler.questTriggers.camper) {
 	var callback =  function () {
 		array_push(	
 			QuestHandler.quests, 
@@ -9,5 +9,5 @@ if (!oPlayer.camperLevelCleared) {
 		)
 	}
 	CamperNPC.triggerDialog(callback);
-	oPlayer.camperLevelCleared = true;
+	QuestHandler.questTriggers.camper = true;
 }

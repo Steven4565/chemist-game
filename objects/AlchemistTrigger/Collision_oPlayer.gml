@@ -1,4 +1,4 @@
-if (!oPlayer.alchemistLevelCleared) {
+if (!QuestHandler.questTriggers.alchemist) {
 	var callback =  function () {
 		array_push(	
 			QuestHandler.quests, 	
@@ -9,5 +9,5 @@ if (!oPlayer.alchemistLevelCleared) {
 		)
 	}
 	AlchemistNPC.triggerDialog(callback);
-	oPlayer.alchemistLevelCleared = true;
+	QuestHandler.questTriggers.alchemist = true;
 }

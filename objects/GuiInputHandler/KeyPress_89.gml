@@ -15,17 +15,20 @@ for (var i = 0; i < array_length(QuestHandler.quests); i++) {
 		GatekeeperNPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[1].unlocked = true;
 		oWell.sprite_index = FixedWell;
+		oPlayer.guard1Cleared = true;
 	}
 	else if (currQuest.name == "Help Camper") {
 		QuestHandler.quests[i].done = true;
 		CamperNPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[2].unlocked = true;
+		oPlayer.camperLevelCleared = true;
 	}
 	else if (currQuest.name == "Fix Guard's Cart") {
 		QuestHandler.quests[i].done = true;
 		Gatekeeper2NPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[3].unlocked = true;
 		oCart.sprite_index = FixedCart;
+		oPlayer.guard2Cleared = true;
 	}
 	
 	break;

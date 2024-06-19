@@ -12,7 +12,7 @@ if (playerFloor == 2) {
 }
 
 var collisionLayers = [collisionTile];
-if (!oPlayer.alchemistLevelCleared) {
+if (!QuestHandler.questTriggers.alchemist) {
 	 array_push(collisionLayers, AlchemistBlocker);	
 }
 if (!oPlayer.guard1Cleared) {
