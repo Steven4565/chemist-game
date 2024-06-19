@@ -11,7 +11,10 @@
     "name":"Collectables",
     "path":"folders/Objects/Collectables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentCollectible",
+    "path":"objects/ParentCollectible/ParentCollectible.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

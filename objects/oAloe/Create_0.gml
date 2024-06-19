@@ -1,3 +1,6 @@
+// Inherit the parent event
+event_inherited();
 
-aloeCount = 0;
-maxAloeCount = 3; 
+add = function() {
+	CollectibleHandler.inventory.aloe++;	
+}

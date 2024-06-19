@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oSand",
+  "%Name":"CameraHandler",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSand",
+  "name":"CameraHandler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collectables",
-    "path":"folders/Objects/Collectables.yy",
+    "name":"GameHandlers",
+    "path":"folders/Objects/GameHandlers.yy",
   },
-  "parentObjectId":{
-    "name":"ParentCollectible",
-    "path":"objects/ParentCollectible/ParentCollectible.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SandPowder",
-    "path":"sprites/SandPowder/SandPowder.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

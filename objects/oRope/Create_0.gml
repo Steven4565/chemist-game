@@ -1,3 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-ropeCollected = false;
+// Inherit the parent event
+event_inherited();
+
+add = function() {
+	CollectibleHandler.inventory.rope++;	
+}
