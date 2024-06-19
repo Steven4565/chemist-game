@@ -5,12 +5,16 @@ conversations = [
     [
         {
             "author": "Alchemist",
-            "message": "You there, young one! Could you help me? My eyesight has been failing me, making me \nhard to work. Can you help me?"
+            "message": "You there, young one! Could you help me? My eyesight has been getting worse, I can't\neven find my own house. Can you help me?"
         },
         {
             "author": "You",
-            "message": "Sure!"
-        }
+            "message": "Sure! I'd be glad to!"
+        },
+		{
+			"author": "Alchemist",
+			"message": "Great! Help me bring 2 wires and some sand. Talk to me once you're done"
+		}
     ],
     [
         {

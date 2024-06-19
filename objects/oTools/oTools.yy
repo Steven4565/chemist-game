@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"ElderNPC",
+  "%Name":"oTools",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ElderNPC",
+  "name":"oTools",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/NPC/Characters.yy",
+    "name":"Collectables",
+    "path":"folders/Objects/Collectables.yy",
   },
   "parentObjectId":{
-    "name":"ParentNpc",
-    "path":"objects/ParentNpc/ParentNpc.yy",
+    "name":"ParentCollectible",
+    "path":"objects/ParentCollectible/ParentCollectible.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Elder",
-    "path":"sprites/Elder/Elder.yy",
+    "name":"MetalWire",
+    "path":"sprites/MetalWire/MetalWire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

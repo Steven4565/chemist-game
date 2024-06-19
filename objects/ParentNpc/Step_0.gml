@@ -4,7 +4,9 @@ playerClose = distance_to_object(oPlayer) <= 20
 button.visible = playerClose && !DrawGUI.chatboxDisplayed ? true : false
 
 
-function triggerDialog(callback = function () {}) {
+function triggerDialog(callback = function () {}, iteratorCallback = function(i) {} ) {
+	iteratorCallback(conversationIdx);
+	
     var currConv = conversations[conversationIdx];
 
     var messages = [];

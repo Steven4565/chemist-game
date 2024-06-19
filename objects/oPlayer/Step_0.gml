@@ -107,4 +107,4 @@ if(checkCollision(x, y + vsp, collisionLayers))
 x += hsp;
 y += vsp;
 
-self.depth = -self.y
+self.depth = -self.y;
