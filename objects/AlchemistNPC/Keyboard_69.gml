@@ -11,7 +11,8 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
 		}
 				
 		AlchemistNPC.conversationIdx = 1;
-		BookPage.pageSpriteMap[0].unlocked = true;		
+		BookPage.pageSpriteMap[0].unlocked = true;
+		audio_play_sound(FinishQuestSound, 1, false);
 
 	});
 }

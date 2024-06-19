@@ -15,7 +15,6 @@
     {"name":"inst_1D895CB5","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_293FCA03","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_654E38FB","path":"rooms/Map1/Map1.yy",},
-    {"name":"inst_2129FD27","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_486DD0F5","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_3745E433","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_4A029E44","path":"rooms/Map1/Map1.yy",},
@@ -57,7 +56,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"GameHandlers","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_654E38FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_654E38FB","objectId":{"name":"QuestHandler","path":"objects/QuestHandler/QuestHandler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":736.0,},
-        {"$GMRInstance":"","%Name":"inst_2129FD27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2129FD27","objectId":{"name":"GuiInputHandler","path":"objects/GuiInputHandler/GuiInputHandler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":768.0,},
         {"$GMRInstance":"","%Name":"inst_486DD0F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_486DD0F5","objectId":{"name":"BookHandler","path":"objects/BookHandler/BookHandler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":800.0,},
         {"$GMRInstance":"","%Name":"inst_746AEEC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_746AEEC1","objectId":{"name":"DrawGUI","path":"objects/DrawGUI/DrawGUI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":832.0,},
         {"$GMRInstance":"","%Name":"inst_23DD1388","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23DD1388","objectId":{"name":"CameraHandler","path":"objects/CameraHandler/CameraHandler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":864.0,},

@@ -7,6 +7,7 @@ if (!QuestHandler.questTriggers.elder) {
 				done: false
 			}
 		)
+		audio_play_sound(StartQuestSound, 1, false);
 	}
 	QuestHandler.questTriggers.elder = true;
 	ElderNPC.triggerDialog(callback);

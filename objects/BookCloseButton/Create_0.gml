@@ -10,4 +10,5 @@ y = 100;
 onClick = function() {
 	BookHandler.bookDisplayed = false;
 	oPlayer.toggleMovement(true);
+	audio_play_sound(BookCloseSound, 1, false);
 }

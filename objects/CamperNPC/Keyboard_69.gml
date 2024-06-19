@@ -13,6 +13,6 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
 		CamperNPC.conversationIdx = 1;
 		BookPage.pageSpriteMap[2].unlocked = true;
 		oPlayer.camperLevelCleared = true;
-
+		audio_play_sound(FinishQuestSound, 1, false);
 	});
 }
