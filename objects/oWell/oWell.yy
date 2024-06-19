@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistTrigger",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oWell",
+  "eventList":[],
   "managed":true,
-  "name":"AlchemistTrigger",
+  "name":"oWell",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitboxTriggers",
-    "path":"folders/Objects/HitboxTriggers.yy",
+    "name":"Decorations",
+    "path":"folders/Objects/Decorations.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CollisionSpriteRed",
-    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
+    "name":"BrokenWell",
+    "path":"sprites/BrokenWell/BrokenWell.yy",
   },
   "spriteMaskId":null,
   "visible":true,

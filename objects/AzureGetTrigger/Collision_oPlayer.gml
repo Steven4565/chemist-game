@@ -1,8 +1,12 @@
-playerClose = distance_to_object(oPlayer) <= 20
+var messages = [
+	"Finally! I have obtained the Azure Bloom flower!",
+	"With this, I can at last cure my sister..."
+]
 
-// Handle button visibility
-button.visible = playerClose && !DrawGUI.chatboxDisplayed ? true : false
-
+var authors = [
+	"You",
+	"You"
+]
 
 function triggerDialog(callback = function () {}) {
     var currConv = conversations[conversationIdx];
@@ -23,4 +27,9 @@ function triggerDialog(callback = function () {}) {
         callback
     )
     oPlayer.toggleMovement(false);
+}
+
+if (!oPlayer.azureObtained) {
+	triggerDialog(callback);
+	oPlayer.azureObtained = true;
 }

@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistTrigger",
+  "%Name":"Gatekeeper2NPC",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"AlchemistTrigger",
+  "name":"Gatekeeper2NPC",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitboxTriggers",
-    "path":"folders/Objects/HitboxTriggers.yy",
+    "name":"Characters",
+    "path":"folders/Objects/NPC/Characters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ParentNpc",
+    "path":"objects/ParentNpc/ParentNpc.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CollisionSpriteRed",
-    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
+    "name":"Gatekeeper",
+    "path":"sprites/Gatekeeper/Gatekeeper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

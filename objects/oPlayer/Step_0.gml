@@ -12,9 +12,16 @@ if (playerFloor == 2) {
 }
 
 var collisionLayers = [collisionTile];
-if (!oPlayer.alchemistLevelCleared) {
-	 array_push(collisionLayers, AlchemistCollider);	
+if (!QuestHandler.questTriggers.alchemist) {
+	 array_push(collisionLayers, AlchemistBlocker);	
 }
+if (!oPlayer.guard1Cleared) {
+	array_push(collisionLayers, Map1GatekeeperBlocker);	
+}
+if (!oPlayer.guard2Cleared) {
+	array_push(collisionLayers, AzureBlocker);	
+}
+
 
 if(hasmovement){
 	
@@ -51,7 +58,6 @@ if(hasmovement){
 
 else
 {
-	
 	_key_down = 0;
 	_key_right = 0;
 	_key_left = 0;

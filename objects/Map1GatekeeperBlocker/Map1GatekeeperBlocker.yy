@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistTrigger",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Map1GatekeeperBlocker",
+  "eventList":[],
   "managed":true,
-  "name":"AlchemistTrigger",
+  "name":"Map1GatekeeperBlocker",
   "overriddenProperties":[],
   "parent":{
-    "name":"HitboxTriggers",
-    "path":"folders/Objects/HitboxTriggers.yy",
+    "name":"NpcBlocker",
+    "path":"folders/Objects/NpcBlocker.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistTrigger",
+  "%Name":"ElderTrigger",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"AlchemistTrigger",
+  "name":"ElderTrigger",
   "overriddenProperties":[],
   "parent":{
     "name":"HitboxTriggers",

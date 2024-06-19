@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"AlchemistCollider",
+  "%Name":"oCart",
   "eventList":[],
   "managed":true,
-  "name":"AlchemistCollider",
+  "name":"oCart",
   "overriddenProperties":[],
   "parent":{
-    "name":"Colliders",
-    "path":"folders/Objects/Colliders.yy",
+    "name":"Decorations",
+    "path":"folders/Objects/Decorations.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CollisionSpriteRed",
-    "path":"sprites/CollisionSpriteRed/CollisionSpriteRed.yy",
+    "name":"BrokenCart",
+    "path":"sprites/BrokenCart/BrokenCart.yy",
   },
   "spriteMaskId":null,
   "visible":true,
