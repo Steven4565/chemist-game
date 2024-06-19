@@ -5,6 +5,7 @@ for (var i = 0; i < array_length(QuestHandler.quests); i++) {
 	if (currQuest.done) continue
 	
 	if (currQuest.name == "Alchemist's glasses") {
+		
 		if(oSand.sandCollected&&oWire.wireCollected){
 		QuestHandler.quests[i].done = true
 		AlchemistNPC.conversationIdx = 1;
