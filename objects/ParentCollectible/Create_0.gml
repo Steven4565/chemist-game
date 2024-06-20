@@ -14,7 +14,7 @@ add = function() {
 }
 
 collect = function () {
-	array_push(CollectibleHandler.collectedIds, id);
+	array_push(CollectableHandler.collectedIds, id);
 	instance_deactivate_object(self);
 	instance_deactivate_object(button);
 	add();

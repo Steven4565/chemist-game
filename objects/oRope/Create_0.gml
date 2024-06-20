@@ -2,5 +2,5 @@
 event_inherited();
 
 add = function() {
-	CollectibleHandler.inventory.rope++;	
+	InventoryHandler.addInventory("rope", 1);
 }

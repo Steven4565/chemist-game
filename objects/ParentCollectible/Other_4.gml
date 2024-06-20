@@ -1,3 +1,3 @@
-if (array_contains(CollectibleHandler.collectedIds, id)) {
+if (array_contains(CollectableHandler.collectedIds, id)) {
 	instance_deactivate_object(self);	
 }
