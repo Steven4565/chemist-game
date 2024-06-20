@@ -2,7 +2,7 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
 	triggerDialog(, function (i) {
 		if (i != 0) return;
 		
-		if(InventoryHandler.getInventory("toolkit") <= 1) return;
+		if(InventoryHandler.getInventory("toolkit") <= 0) return;
 		
 		for (var j = 0; j < array_length(QuestHandler.quests); j++) {	
 			if (QuestHandler.quests[j].name == "Fix Guard's Cart") 

@@ -18,7 +18,7 @@ playerFloor=1
 guard1Cleared = false;
 camperLevelCleared = false;
 guard2Cleared = false;
-
+azureObtained = false;
 
 function toggleMovement(isMovable) {
 	if (!isMovable) {
