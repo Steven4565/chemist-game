@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Chemist",
-    "path":"Chemist.yyp",
+    "name":"BookPages",
+    "path":"folders/Sprites/BookPages.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

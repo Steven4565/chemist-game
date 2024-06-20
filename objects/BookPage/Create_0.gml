@@ -2,22 +2,22 @@
 pageSpriteMap = [
 	{
 		name: "lens",
-		sprite: BookLenseSprite,
+		sprite: BookLenses,
+		unlocked: false,
+	},
+	{
+		name: "lens",
+		sprite: BookPulley,
+		unlocked: false,
+	},
+	{
+		name: "lens",
+		sprite: BookRemedies,
 		unlocked: false,
 	},
 	{
 		name: "lens",
 		sprite: BookNewton,
-		unlocked: false,
-	},
-	{
-		name: "lens",
-		sprite: BookPH,
-		unlocked: false,
-	},
-	{
-		name: "lens",
-		sprite: BookPH2,
 		unlocked: false,
 	},
 ]
