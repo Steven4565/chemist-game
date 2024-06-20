@@ -9,7 +9,7 @@ ITEM_LIST = {
 	},
 	"toolkit": {
 		name: "Toolkit",
-		sprite: SandPowder
+		sprite: Toolbox
 	},
 	"rope": {
 		name: "Rope",
@@ -21,14 +21,47 @@ ITEM_LIST = {
 	},
 }
 
-GAP = 10;
-
 showInventory = true;
 
 vw = camera_get_view_width(view_camera[0]);
 vh = camera_get_view_height(view_camera[0]);
 
+//inventory = [
+//	{
+//		name: "aloe", 
+//		count: 1
+//	},
+//	{
+//		name: "wire", 
+//		count: 1
+//	},
+//	{
+//		name: "rope", 
+//		count: 1
+//	},
+//	{
+//		name: "toolkit", 
+//		count: 1
+//	},
+//	{
+//		name: "sand", 
+//		count: 1
+//	},
+//	{
+//		name: "aloe", 
+//		count: 1
+//	},
+//	{
+//		name: "aloe", 
+//		count: 1
+//	},{
+//		name: "aloe", 
+//		count: 1
+//	},
+//];
+
 inventory = [];
+
 for (var i =  0; i < 8; i++) {
 	array_push(inventory, noone);
 }	

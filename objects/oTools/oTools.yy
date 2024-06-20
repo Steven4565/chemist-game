@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MetalWire",
-    "path":"sprites/MetalWire/MetalWire.yy",
+    "name":"Toolbox",
+    "path":"sprites/Toolbox/Toolbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

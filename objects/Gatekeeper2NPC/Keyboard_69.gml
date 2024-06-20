@@ -1,5 +1,5 @@
 if (playerClose && keyboard_check_pressed(ord("E"))) {	
-	var _ = triggerDialog(, function (i) {
+	triggerDialog(, function (i) {
 		if (i != 0) return;
 		
 		if(InventoryHandler.getInventory("toolkit") <= 1) return;

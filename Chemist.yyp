@@ -233,6 +233,7 @@
     {"id":{"name":"TerrainSet4Curves","path":"sprites/TerrainSet4Curves/TerrainSet4Curves.yy",},},
     {"id":{"name":"TerrainSet5","path":"sprites/TerrainSet5/TerrainSet5.yy",},},
     {"id":{"name":"TextBox","path":"sprites/TextBox/TextBox.yy",},},
+    {"id":{"name":"Toolbox","path":"sprites/Toolbox/Toolbox.yy",},},
     {"id":{"name":"Tree1","path":"sprites/Tree1/Tree1.yy",},},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},},
     {"id":{"name":"Tree3","path":"sprites/Tree3/Tree3.yy",},},

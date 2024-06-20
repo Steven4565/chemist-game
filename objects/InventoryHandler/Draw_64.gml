@@ -11,10 +11,10 @@ if (showInventory) {
 		var item = ITEM_LIST[$inventory[i].name];
 		var invBgWidth = sprite_get_width(InventoryBackground) * scale;
 		var spriteWidth = sprite_get_width(item.sprite) * i;
-		var gap = i * 17.5;
+		var gap = i * 28;
 		
 		var xLoc = vw - (invBgWidth/2 - 52) + gap + spriteWidth;
-		var yLoc =  vh*2 - 70;
+		var yLoc =  vh*2 - 80;
 		
 		draw_sprite_ext(item.sprite, 0, xLoc , yLoc, 1, 1, 0, c_white, 1);
 		

@@ -1,5 +1,5 @@
 event_inherited();
 
 add = function() {
-	InventoryHandler.addInventory("tool", 1);
+	InventoryHandler.addInventory("toolkit", 1);
 }
