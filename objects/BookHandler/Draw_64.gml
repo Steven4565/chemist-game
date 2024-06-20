@@ -2,7 +2,7 @@ var vw = camera_get_view_width(view_camera[0]);
 var vh = camera_get_view_height(view_camera[0]);
 
 // Draw Book
-if (bookDisplayed && !DrawGUI.chatboxDisplayed) {
+if (bookDisplayed) {
 	show_debug_message(DrawGUI.chatboxDisplayed)
 	for (var i = 0; i < array_length(instances); i++) {
 		instances[i].visible = true;	
@@ -16,8 +16,8 @@ if (bookDisplayed && !DrawGUI.chatboxDisplayed) {
 	}
 }
 
-if (DrawGUI.chatboxDisplayed) {
-	bookButton.visible = false;	
-} else {
+if (global.drawHUD) {
 	bookButton.visible = true;	
+} else {
+	bookButton.visible = false;	
 }

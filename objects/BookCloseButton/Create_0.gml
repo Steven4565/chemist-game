@@ -8,6 +8,7 @@ x = 1060;
 y = 100;
 
 onClick = function() {
+	global.drawHUD = true;
 	BookHandler.bookDisplayed = false;
 	oPlayer.toggleMovement(true);
 	audio_stop_sound(BookOpenSound);

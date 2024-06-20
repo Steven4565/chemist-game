@@ -3,6 +3,7 @@ var vh = camera_get_view_height(view_camera[0]);
 
 
 function displayChatbox(texts, authors, _callback = function () {}) {
+	global.drawHUD = false;
 	chatboxDisplayed = true;
 	chatboxTexts = texts;
 	textAuthors = authors;
@@ -24,6 +25,7 @@ if (chatboxDisplayed) {
 		chatIdx = 0;
 		oPlayer.toggleMovement(true);
 		callback();
+		global.drawHUD = true;
 		
 	} else {
 		// Weird error idk why

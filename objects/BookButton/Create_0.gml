@@ -11,6 +11,7 @@ y = 50;
 onClick = function() {
 	if (!BookHandler.bookDisplayed) {
 		BookHandler.bookDisplayed = true;
+		global.drawHUD = false;
 		audio_play_sound(BookOpenSound, 10, false);
 	} 
 }

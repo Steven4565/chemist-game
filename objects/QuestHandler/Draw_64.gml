@@ -1,6 +1,6 @@
 // Draw quests
 
-if (!DrawGUI.chatboxDisplayed) {
+if (global.drawHUD) {
 	var activeQuests = array_filter(quests, function (el, i) {
 		return el.done != true
 	})
