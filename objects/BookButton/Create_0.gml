@@ -1,7 +1,11 @@
 event_inherited();
 
-x = 50;
-y = 140;
+vw = camera_get_view_width(view_camera[0]);
+vh = camera_get_view_height(view_camera[0]);
+
+
+x = vw * 2 - 50;
+y = 50;
 
 
 onClick = function() {

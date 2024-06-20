@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.88,
+  "duration":0.626939,
   "name":"StartQuestSound",
   "parent":{
     "name":"Sounds",
