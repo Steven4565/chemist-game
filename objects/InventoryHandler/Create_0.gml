@@ -13,7 +13,7 @@ ITEM_LIST = {
 	},
 	"rope": {
 		name: "Rope",
-		sprite: MetalWire
+		sprite: Rope
 	},
 	"wire": {
 		name: "Wire",
