@@ -1,6 +1,6 @@
 var scale = 4;
 
-if (showInventory) {
+if (showInventory && !DrawGUI.chatboxDisplayed) {
 	draw_sprite_ext(InventoryBackground, 0, vw, vh*2 -80, scale, scale, 0, c_white, 1);
 	
 	for (var i = 0; i < 9; i++) {
