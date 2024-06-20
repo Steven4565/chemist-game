@@ -7,7 +7,8 @@ if (!QuestHandler.questTriggers.alchemist) {
 				done: false
 			}
 		)
+		audio_play_sound(StartQuestSound, 1, false);
 	}
 	AlchemistNPC.triggerDialog(callback);
-	QuestHandler.questTriggers.alchemist = true;
+	QuestHandler.questTriggers.alchemist = true
 }

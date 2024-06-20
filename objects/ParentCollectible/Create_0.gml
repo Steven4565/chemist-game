@@ -18,4 +18,5 @@ collect = function () {
 	instance_deactivate_object(self);
 	instance_deactivate_object(button);
 	add();
+	audio_play_sound(CollectItemSound, 1, false);
 }

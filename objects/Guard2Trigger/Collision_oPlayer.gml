@@ -7,6 +7,7 @@ if (!QuestHandler.questTriggers.guard2) {
 				done: false
 			}
 		)
+		audio_play_sound(StartQuestSound, 1, false);
 	}
 	QuestHandler.questTriggers.guard2 = true;
 	Gatekeeper2NPC.triggerDialog(callback)

@@ -7,6 +7,7 @@ if (!QuestHandler.questTriggers.camper) {
 				done: false
 			}
 		)
+		audio_play_sound(StartQuestSound, 1, false);
 	}
 	CamperNPC.triggerDialog(callback);
 	QuestHandler.questTriggers.camper = true;

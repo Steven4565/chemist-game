@@ -1,5 +1,5 @@
 if (playerClose && keyboard_check_pressed(ord("E"))) {	
-	triggerDialog(, function (i) {
+	var _ = triggerDialog(, function (i) {
 		if (i != 0) return;
 		
 		var inventory = CollectibleHandler.inventory;
@@ -14,5 +14,6 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
         BookPage.pageSpriteMap[3].unlocked = true;
         oCart.sprite_index = FixedCart;
         oPlayer.guard2Cleared = true;
+		audio_play_sound(FinishQuestSound, 1, false);
 	});
 }
