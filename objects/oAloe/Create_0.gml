@@ -2,5 +2,5 @@
 event_inherited();
 
 add = function() {
-	CollectibleHandler.inventory.aloe++;	
+	InventoryHandler.addInventory("aloe", 1);
 }

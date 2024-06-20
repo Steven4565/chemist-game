@@ -12,7 +12,7 @@ conversations =
         },
         {
             "author": "Gatekeeper",
-            "message": "No way I’m letting you pass. Azure Bloom is the most precious flower in \nthis village. It’s very hard to grow, and there is only a limited amount inside"
+            "message": "No way I'm letting you pass. Azure Bloom is the most precious flower in \nthis village. It's very hard to grow, and there is only a limited amount inside"
         },
 		{
             "author": "You",

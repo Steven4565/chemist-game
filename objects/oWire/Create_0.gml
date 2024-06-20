@@ -2,5 +2,5 @@
 event_inherited();
 
 add = function() {
-	CollectibleHandler.inventory.wire++;
+	InventoryHandler.addInventory("wire", 1);
 }
