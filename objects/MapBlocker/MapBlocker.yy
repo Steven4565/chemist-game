@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Map1GatekeeperBlocker",
+  "%Name":"MapBlocker",
   "eventList":[],
   "managed":true,
-  "name":"Map1GatekeeperBlocker",
+  "name":"MapBlocker",
   "overriddenProperties":[],
   "parent":{
     "name":"Blockers",

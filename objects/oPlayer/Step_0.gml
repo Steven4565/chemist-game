@@ -11,7 +11,7 @@ if (playerFloor == 2) {
 	collisionTile = floor2Tilemap
 }
 
-var collisionLayers = [collisionTile];
+var collisionLayers = [collisionTile, MapWallBlocker];
 if (!QuestHandler.questTriggers.alchemist) {
 	 array_push(collisionLayers, AlchemistBlocker);	
 }

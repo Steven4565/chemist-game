@@ -6,8 +6,8 @@
   "name":"AzureBlocker",
   "overriddenProperties":[],
   "parent":{
-    "name":"NpcBlocker",
-    "path":"folders/Objects/NpcBlocker.yy",
+    "name":"Blockers",
+    "path":"folders/Objects/Blockers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
