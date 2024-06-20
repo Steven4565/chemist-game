@@ -36,7 +36,7 @@
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BookPages","folderPath":"folders/Sprites/BookPages.yy","name":"BookPages","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"collectables","folderPath":"folders/Sprites/collectables.yy","name":"collectables","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Collectables","folderPath":"folders/Sprites/Collectables.yy","name":"Collectables","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collision","folderPath":"folders/Sprites/Collision.yy","name":"Collision","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Environment","folderPath":"folders/Sprites/Environment.yy","name":"Environment","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Sprites/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -56,6 +56,7 @@
   "name":"Chemist",
   "resources":[
     {"id":{"name":"DialogFont","path":"fonts/DialogFont/DialogFont.yy",},},
+    {"id":{"name":"HotbarFont","path":"fonts/HotbarFont/HotbarFont.yy",},},
     {"id":{"name":"AlchemistBlocker","path":"objects/AlchemistBlocker/AlchemistBlocker.yy",},},
     {"id":{"name":"AlchemistHouse","path":"objects/AlchemistHouse/AlchemistHouse.yy",},},
     {"id":{"name":"AlchemistNPC","path":"objects/AlchemistNPC/AlchemistNPC.yy",},},

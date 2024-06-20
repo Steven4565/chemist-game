@@ -28,50 +28,71 @@ showInventory = true;
 vw = camera_get_view_width(view_camera[0]);
 vh = camera_get_view_height(view_camera[0]);
 
-inventory = [
-	{
-		name: "aloe",
-		count: 1,
-	},
-	noone,
-	noone,
-	noone,
-	noone,
-	noone,
-	{
-		name: "rope",
-		count: 1,
-	},
-	{
-		name: "wire",
-		count: 1,
-	}
-];
+inventory = [];
+for (var i =  0; i < 8; i++) {
+	array_push(inventory, noone);
+}	
+
+
 
 function addInventory(itemId, count) {
-	for (var i = 0; i < array_length(inventory); i++ ) {
+	// Check if there are any existing items in the inventory
+	
+	var existingIdx = -1;
+	for (var i = 0; i < min(array_length(inventory), 8); i++ ) {
+		if (inventory[i] == noone) continue;
 		if (inventory[i].name != itemId) continue;
 		
-		inventory[i].count += count;
+		existingIdx = i;
 		break;
 	}
 	
-	array_push(inventory, {
-		"name": itemId,
-		"count": count,
-	});
+	if (existingIdx != -1) {
+		inventory[existingIdx].count += count;
+		return noone;
+	}
+	
+	// Create a new item in the inventory
+	for (var i = 0; i < min(array_length(inventory), 8); i++ ) {
+		if (inventory[i] == noone) 	{
+			inventory[i] = {
+				name: itemId,
+				count: count
+			};
+			return noone;
+		}
+	}
+	
+	show_debug_message("Inventory is full")
+	
 	return noone;
 }
 
-function getInventory(name) {
-	for (var i = 0; i < array_length(inventory); i++ ) {
-		if (inventory[i].name != name) continue;
+function getInventory(itemId) {
+	for (var i = 0; i < min(array_length(inventory), 8); i++ ) {
+		if (inventory[i] == noone) continue;
+		if (inventory[i].name != itemId) continue;
 		return inventory[i].count;
 		
 	}
 	return 0;
 }
 
-
+function removeInventory(itemId, count) {
+		for (var i = 0; i < min(array_length(inventory), 8); i++ ) {
+		if (inventory[i] == noone) continue;
+		if (inventory[i].name != itemId) continue;
+		
+		if (inventory[i].count < count) return false;
+		
+		inventory[i].count -= count;
+		if (inventory[i].count == 0)
+			inventory[i] = noone;
+		
+		break;
+	}
+	
+	return true;
+}
 
 

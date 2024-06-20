@@ -1,5 +1,5 @@
 if (playerClose && keyboard_check_pressed(ord("E"))) {	
-	var _ = triggerDialog(, function (i) {
+	triggerDialog(, function (i) {
 		if (i != 0) return;
 		
 		if(InventoryHandler.getInventory("rope") <= 0) return;
@@ -8,6 +8,8 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
 			if (QuestHandler.quests[j].name ==  "Fix Elder Jack's well") 
 				QuestHandler.quests[j].done = true;
 		}
+		
+		InventoryHandler.removeInventory("rope", 1);
 				
 		ElderNPC.conversationIdx = 1;
 		GatekeeperNPC.conversationIdx = 1;

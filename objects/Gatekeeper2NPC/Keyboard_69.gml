@@ -8,6 +8,8 @@ if (playerClose && keyboard_check_pressed(ord("E"))) {
 			if (QuestHandler.quests[j].name == "Fix Guard's Cart") 
 				QuestHandler.quests[j].done = true;
 		}
+		
+		InventoryHandler.removeInventory("toolkit", 1);
 				
         Gatekeeper2NPC.conversationIdx = 1;
         BookPage.pageSpriteMap[3].unlocked = true;

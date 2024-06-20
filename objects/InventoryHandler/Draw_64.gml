@@ -17,6 +17,9 @@ if (showInventory) {
 		var yLoc =  vh*2 - 70;
 		
 		draw_sprite_ext(item.sprite, 0, xLoc , yLoc, 1, 1, 0, c_white, 1);
+		
+		draw_set_colour(c_white);
+		draw_set_font(HotbarFont);
 		draw_text(xLoc + 15, yLoc , inventory[i].count)
 	}
 }

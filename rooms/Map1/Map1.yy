@@ -52,6 +52,7 @@
     {"name":"inst_47134644","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_50FDAD8A","path":"rooms/Map1/Map1.yy",},
     {"name":"inst_1CF3F69A","path":"rooms/Map1/Map1.yy",},
+    {"name":"inst_561270A","path":"rooms/Map1/Map1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -119,6 +120,7 @@
         {"$GMRInstance":"","%Name":"inst_199A64E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_199A64E","objectId":{"name":"oSand","path":"objects/oSand/oSand.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":800.0,},
         {"$GMRInstance":"","%Name":"inst_52A2BAE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52A2BAE0","objectId":{"name":"oAloe","path":"objects/oAloe/oAloe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":224.0,},
         {"$GMRInstance":"","%Name":"inst_47134644","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47134644","objectId":{"name":"oRope","path":"objects/oRope/oRope.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":64.0,},
+        {"$GMRInstance":"","%Name":"inst_561270A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_561270A","objectId":{"name":"oWire","path":"objects/oWire/oWire.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":864.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"MapHitboxTriggers","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_70E42D00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70E42D00","objectId":{"name":"Floor1SwitchTrigger","path":"objects/Floor1SwitchTrigger/Floor1SwitchTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":544.0,"y":672.0,},
