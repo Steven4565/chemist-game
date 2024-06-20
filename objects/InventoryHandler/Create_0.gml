@@ -30,4 +30,15 @@ function addInventory(name, count) {
 		"name": name,
 		"count": count,
 	});
+	return noone;
 }
+
+function getInventory(name) {
+	for (var i = 0; i < array_length(inventory); i++ ) {
+		if (inventory[i].name != name) continue;
+		return inventory[i].count;
+		
+	}
+	return 0;
+}
+
